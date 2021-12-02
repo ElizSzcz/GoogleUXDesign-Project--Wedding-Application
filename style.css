@@ -1,0 +1,125 @@
+/* Common Styles */
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    text-decoration:none;
+    outline:none;
+    list-style:none;
+}
+
+html{
+    font-size: 62.5%;
+}
+/* End of Common Styles */
+
+
+/* Section 1/Navigation */
+
+.logo-header{
+    width:100%;
+    height: 1.5 rem;
+    background-color:black;
+}
+
+.logo-image-wrapper{
+    width:15%;
+    height:100%;
+    margin: 0 auto 0 auto;
+}
+
+.kingswood-logo-blk{
+    width:100%;
+    height:100%;
+}
+
+.navigation{
+    width:100vw;
+    height:85vh;
+    position:relative;
+    transition: all .5s;
+}
+
+.homescreen-image-wrapper{
+    width:100%;
+    height:85vh;
+}
+
+.homescreen-image{
+    width:100%;
+    height:100%;
+    object-fit: cover;
+}
+
+.nav-list{
+    position:absolute;
+    background-color: rgba(0,0,0,0.5);
+    width: 100%;
+    height: 14%;
+    display: flex;
+    justify-content: space-around;
+    align-items:center;
+}
+
+.nav-link{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 1.8rem;
+    color: white;
+}
+
+.nav-hover-box{
+    width: 12.5%;
+    height: 100%;
+    position: absolute;
+    background-color: #f9f8f5;
+    opacity: 60%;
+    visibility:hidden;
+}
+
+.nav-link:hover {
+    color: black;
+    z-index:10;
+}
+
+.link-1:hover ~ .nav-hover-box{
+    visibility:visible;
+    left:0;
+    width: 11.5%;
+}
+.link-2:hover ~ .nav-hover-box{
+    visibility:visible;
+    left:10%;
+    width: 11.5%;
+}
+.link-3:hover ~ .nav-hover-box{
+    visibility:visible;
+    left:21.5%;
+}
+.link-4:hover ~ .nav-hover-box{
+    visibility:visible;
+    left:35%;
+}
+.link-5:hover ~ .nav-hover-box{
+    visibility:visible;
+    left:47%;
+    width: 11.5%;
+}
+.link-6:hover ~ .nav-hover-box{
+    visibility:visible;
+    left:58%;
+    width: 11.5%;
+}
+.link-7:hover ~ .nav-hover-box{
+    visibility:visible;
+    left:71%;
+    width: 11.5%
+}
+.link-8:hover ~ .nav-hover-box{
+    visibility:visible;
+    right:0;
+    width: 16%
+}
+
+
+
+/*End of Section 1/Navigation */
