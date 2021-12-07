@@ -11,6 +11,7 @@
 html{
     font-size: 62.5%;
 }
+
 /* End of Common Styles */
 
 
@@ -34,8 +35,8 @@ html{
 }
 
 .home-image-and-navigation{
-    width:100vw;
-    height:85vh;
+    width:100%;
+    height:95%;
     transition: all .5s;
     position:relative;
 }
@@ -44,7 +45,7 @@ html{
     position:absolute;
     background-color: rgba(0,0,0,0.5);
     width:100%;
-    height: 14%;
+    height: 12%;
     display: flex;
     justify-content: space-around;
     align-items:center;
@@ -114,6 +115,7 @@ html{
     bottom:25%;
     display:flex;
     flex-direction: column;
+    align-items:flex-end;
 }
 
 .welcome{
@@ -124,16 +126,139 @@ html{
 }
 
 .tour-btn{
-    font-family: 'Rhodium Libre', serif;
+    font-family: 'Josefin Slab', serif;
     letter-spacing: .1rem;
     font-size: 2.4rem;
     color:white;
     background-color: black;
     padding:10px;
-    margin-top:7px;
-    border: .5px solid white;
+    margin-top:10px;
+    border-left: .5px solid white;
+    border-top:.5px solid white;
 }
 
-.tour-btn-wrapper{
-    align-self:flex-end;
+/*End of Home Screen Welcome*/
+
+/*Section 2/Home Content*/
+
+.about{
+    font-family: 'Josefin Slab', serif;
+    font-weight:300;
+    font-size: 3.6rem;
+    letter-spacing: .2rem;
+    text-align:center;
+    margin: 4rem;
 }
+
+.home-content{
+    display:flex;
+    justify-content: space-around;
+}
+
+.home-written-content{
+    width:40%;
+    margin-left:10rem;
+}
+
+.about-para-begin{
+    font-family: 'Josefin Slab', serif;
+    color: #3b3d3b;
+    font-size: 3.6rem;
+    line-height: 42px;
+    margin-bottom: 3rem;
+}
+
+.about-para{
+    font-family: 'Roboto Condensed', sans-serif;
+    color: black;
+    font-size: 2rem;
+    line-height: 40px;
+}
+
+.address-wrapper{
+    margin: 0 30rem 0 8rem;
+}
+
+.about-sign-off-head{
+    font-family: 'Rhodium Libre', serif;
+    color: #3b3d3b;
+    font-size: 1.8rem;
+}
+
+.address-sign-off{
+    background-color:#f9f8f5;
+    padding:10px;
+    /* offset-x | offset-y | blur-radius | spread-radius | color */
+    box-shadow: 8px 10px 4px 0 rgba(0, 0, 0, 0.2);
+    font-style:normal;
+    font-family: 'Roboto Condensed', sans-serif;
+    color: black;
+    font-size: 1.5rem;
+    line-height: 26px;
+}
+
+.img-grid{
+    display:grid;
+    grid-gap:5px;
+    /*grid-template-columns: repeat(auto-fit,minmax(50px,1fr));*/
+    grid-template-columns: repeat(12,50px);
+    grid-template-rows: repeat(10,50px);
+}
+
+.violin-img-wrapper{
+    grid-column: 2/7;
+    grid-row: 1/5;
+}
+
+.violin-img{
+    height:100%;
+    width: 100%;
+    object-fit:cover;
+}
+
+.box-img{
+    grid-column: 7/11;
+    grid-row: 1/4;
+    background-color:black;
+    height: 100%;
+    width: 100%;
+}
+
+.guitar-img-wrapper{
+    grid-column: 2/7;
+    grid-row: 5/9;
+}
+
+.guitar-img{
+    height:100%;
+    width: 100%;
+    object-fit:cover;
+}
+
+.camera-img-wrapper{
+    grid-column: 7/11;
+    grid-row: 4/9;
+}
+
+.camera-img{
+    height:100%;
+    width: 100%;
+    object-fit:cover;
+}
+
+/*End of Section 2/Home Content*/
+
+/*Section 3/Testimonial Content*/
+
+.testimonial-img-wrapper{
+   width:100%;
+   height:30vh;
+}
+
+.testimonial-img{
+    width:100%;
+    height:100%;
+    object-fit:contain;
+}
+
+/*End of Section 3/Testimonial Content*/
