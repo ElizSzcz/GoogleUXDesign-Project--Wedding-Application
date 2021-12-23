@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -17,31 +18,8 @@
 <div class="whole container">
     <!--Section 1/Home Image & Navigation-->
     <div class="home-image-and-navigation">
-
-            <div class="logo-header">
-                <div class="logo-image-wrapper">
-                    <img src="/Users/elizabethszczesny/Documents/Photos/Kingswood Logo Blk.jpg" alt="Kingswood logo" class= "kingswood-logo-blk">
-                </div>
-            </div>
-
-            <nav class="navigation">
-                <ul class="nav-list">
-                    <li class="nav-item"><a href="#" class= "nav-link">Venue</a></li>
-                    <li class="nav-item"><a href="#" class= "nav-link">Floral</a></li>
-                    <li class="nav-item"><a href="#" class= "nav-link">Photography</a></li>
-                    <li class="nav-item"><a href="#" class= "nav-link">Musicians</a></li>
-                    <li class="nav-item"><a href="#" class= "nav-link">Menu</a></li>
-                    <li class="nav-item nav-item-dropdown"><a href="#" class= "nav-link">Booking</a>
-                        <ul class="dropdown">
-                            <li class="sub-item"><a href="#" class= "nav-link">Dates</a></li>
-                            <li class="sub-item"><a href="#" class= "nav-link">Pricing</a></li>
-                            <li class="sub-item"><a href="#" class= "nav-link">Accounts</a></li>
-                        </ul>
-                    </li>    
-                    <li class="nav-item"><a href="#" class= "nav-link">Appointments</a></li>
-                    <li class="nav-item"><a href="#" class= "nav-link">View My Account</a></li>
-                </ul>
-            </nav>
+            
+            <div id="nav-placeholder"></div>
 
             <div class="homescreen-image-wrapper">
                 <img src="/Users/elizabethszczesny/Documents/Photos/Kingswood Homescreen Photo.jpeg" alt="trees" class="homescreen-image">
@@ -132,6 +110,7 @@
 
     </footer>
    
+
     <!--End of Footer-->
 
     
@@ -140,3 +119,15 @@
 </body>
 
 </html>
+   
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script>
+$.get("nav.html", function(navhtml){
+    $("#nav-placeholder").replaceWith(navhtml);
+});
+</script>
+
+
+
+ 
+

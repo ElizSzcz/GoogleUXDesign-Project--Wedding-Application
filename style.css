@@ -274,8 +274,9 @@ input[type=search]{
 
 
 .testimonial-img-wrapper{
-    width:100%;
+    width:50%;
     height:37rem;
+    margin: 0 auto 5rem auto;
 }
 
 .testimonial-img{
@@ -293,7 +294,7 @@ input[type=search]{
     position: absolute;
     z-index:20;
     top: 4%;
-    left: 9%;
+    left: 12%;
 }
 
 .quote{
@@ -301,16 +302,16 @@ input[type=search]{
 }
 
 .testimonial-header{
-    font-family: 'Roboto Condensed', sans-serif;
-    color: black;
-    font-size: 2.4rem;
+    font-family: 'Josefin Slab', serif;
+    color: #3f573f;
+    font-size: 3.6rem;
 }
 
 .testimonial-para{
     font-family: 'Roboto Condensed', sans-serif;
     color: black;
     font-size: 1.8rem;
-    line-height: 4rem;
+    line-height: 5rem;
     width:37%;
 }
 
@@ -418,7 +419,7 @@ input[type=search]{
     font-size:1.6rem;
     position:absolute;
     z-index:30;
-    top:22%;
+    top:23%;
     right:4%;
 }
 
