@@ -332,7 +332,7 @@ input[type=search]{
 
 .footer::before{
     content: "";
-    background-image: url("/Users/elizabethszczesny/Documents/Photos/IMG_0655.jpeg");
+    background-image: url("/WeddingApp/images/IMG_0655.jpeg");
     background-size:cover;
     position:absolute;
     left: 0;
