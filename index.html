@@ -35,6 +35,7 @@
                     <li class="nav-item"><a href="#" class= "nav-link">Photography</a></li>
                     <li class="nav-item"><a href="#" class= "nav-link">Musicians</a></li>
                     <li class="nav-item"><a href="#" class= "nav-link">Menu</a></li>
+                    <li class="nav-item"><a href="#" class= "nav-link">Appointments</a></li>
                     <li class="nav-item nav-item-dropdown"><a href="#" class= "nav-link">Booking</a>
                         <ul class="dropdown">
                             <li class="sub-item"><a href="#" class= "nav-link">Dates</a></li>
@@ -42,7 +43,6 @@
                             <li class="sub-item"><a href="#" class= "nav-link">Accounts</a></li>
                         </ul>
                     </li>    
-                    <li class="nav-item"><a href="#" class= "nav-link">Appointments</a></li>
                     <li class="nav-item"><a href="#" class= "nav-link">View My Account</a></li>
                 </ul>
             </nav>
@@ -143,7 +143,7 @@
     var navigation = document.querySelector('.navigation');
     var menuBtn = document.querySelector('.menu-btn')
     menuBtn.addEventListener('click', function() {
-        navigation.toggle(navigation.style.display);
+        navigation.toggleClass();
     });
 </script>-->
 
@@ -152,5 +152,7 @@
     <script>
     $('.menu-btn').on('click', function() {
         $('.navigation').toggle();
+        (($(".menu-btn").html() === "Menu" ? $(".menu-btn").html("Close Menu") : $(".menu-btn").html("Menu")))
     });
-    </script>
+
+</script>

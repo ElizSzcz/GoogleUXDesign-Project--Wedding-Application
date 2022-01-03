@@ -76,7 +76,6 @@ input[type=search]{
 }
 
 .nav-item:hover {
-    background-color: rgba(0,0,0, 0.7);
     height:100%;
     width:10%;
     display:flex;
@@ -344,7 +343,7 @@ input[type=search]{
 }
 
 .nav-link:hover{
-    background-color: rgba(0,0,0,0.9);
+    background-color: rgba(0,0,0,0.8);
     height:100%;
     width:100%;
     display:flex;
@@ -436,9 +435,11 @@ input[type=search]{
 }
 
 .menu-btn{
+    width:85px;
+    z-index:30;
     position: absolute;
     top: 30%;
-    left:5%;
+    left:1%;
     font-family: 'Josefin Slab', serif;
     font-weight:100;
     letter-spacing: .1rem;
@@ -462,17 +463,23 @@ input[type=search]{
     }
 
     .nav-list{
-        position:absolute;
-        top:1.5rem;
-        margin-bottom:10px;
-        background-color: rgba(0,0,0,0.5);
-        width:100%;
-        height: 90px;;
+        left:50%;
+        transform:translateX(-50%);
+        width: 68%;
+        height: 450px;
         display: flex;
         flex-direction: column;
         justify-content: space-around;
         align-items:center;
-        transition: all 1s;
+        transition: all 2s ease-in;
+    }
+
+    .nav-item:hover {
+        height:46px;
+        width:170px;
+        display:flex;
+        justify-content:center;
+        align-items:center;
     }
 
 }
