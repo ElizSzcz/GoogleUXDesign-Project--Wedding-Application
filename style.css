@@ -74,7 +74,7 @@ input[type=search]{
     font-family: 'Josefin Slab', sans-serif;
     text-transform: uppercase;
     font-weight: 300;
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     color: white;
     letter-spacing: .15rem;
 }
@@ -141,7 +141,7 @@ input[type=search]{
 
 .welcome{
     font-family: 'Rhodium Libre', sans-serif;
-    font-size: 3.6rem;
+    font-size: 3.4rem;
     color: white;
     letter-spacing: .1rem;
     line-height: 40px;
@@ -151,7 +151,7 @@ input[type=search]{
     font-family: 'Josefin Slab', serif;
     font-weight:100;
     letter-spacing: .1rem;
-    font-size: 2.4rem;
+    font-size: 2.2rem;
     color:white;
     background-color: black;
     padding:10px;
@@ -167,7 +167,7 @@ input[type=search]{
     font-family: 'Josefin Slab', serif;
     font-weight: 300;
     color:#3f573f;
-    font-size: 3.6rem;
+    font-size: 3.5rem;
     letter-spacing: .2rem;
     text-align:center;
     margin: 4rem;
@@ -187,7 +187,7 @@ input[type=search]{
 .about-para-begin{
     font-family: 'Josefin Slab', serif;
     color: #3f573f;
-    font-size: 3.6rem;
+    font-size: 3.5rem;
     line-height: 4.2rem;
     margin-bottom: 2.5rem;
 }
@@ -195,7 +195,7 @@ input[type=search]{
 .about-para{
     font-family: 'Roboto Condensed', sans-serif;
     color: black;
-    font-size: 1.8rem;
+    font-size: 1.7rem;
     line-height: 5rem;
 }
 
@@ -206,7 +206,7 @@ input[type=search]{
 .about-sign-off-head{
     font-family: 'Rhodium Libre', serif;
     color: #3b3d3b;
-    font-size: 1.8rem;
+    font-size: 1.7rem;
     text-align: center;
 }
 
@@ -220,7 +220,7 @@ input[type=search]{
     font-style:normal;
     font-family: 'Roboto Condensed', sans-serif;
     color: black;
-    font-size: 1.5rem;
+    font-size: 1.4rem;
     line-height: 2.6rem;
     text-align: center;
 }
@@ -299,21 +299,21 @@ input[type=search]{
 /*Section 3/Testimonial*/
 
 .quote{
-    font-size:4rem;
+    font-size:3.9rem;
 }
 
 .testimonial-header{
     font-family: 'Josefin Slab', serif;
     font-weight: 300;
     color: #3f573f;
-    font-size: 3.6rem;
+    font-size: 3.5rem;
     margin-bottom:2rem;
 }
 
 .testimonial-para{
     font-family: 'Roboto Condensed', sans-serif;
     color: black;
-    font-size: 1.8rem;
+    font-size: 1.7rem;
     line-height: 5rem;
     margin-bottom:30px;
 }
@@ -418,7 +418,7 @@ input[type=search]{
 }
 
 .search{
-    font-size:1.6rem;
+    font-size:1.5rem;
     position:absolute;
     z-index:30;
     top:23%;
