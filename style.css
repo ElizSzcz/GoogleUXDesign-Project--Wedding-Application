@@ -133,7 +133,7 @@ input[type=search]{
 
 .welcome-with-button{
     position:absolute;
-    left: 66%;
+    left: 68%;
     bottom:20%;
     text-align:right;
     margin-right: 24px;
@@ -141,7 +141,7 @@ input[type=search]{
 
 .welcome{
     font-family: 'Rhodium Libre', sans-serif;
-    font-size: 3.4rem;
+    font-size: 3.2rem;
     color: white;
     letter-spacing: .1rem;
     line-height: 40px;
