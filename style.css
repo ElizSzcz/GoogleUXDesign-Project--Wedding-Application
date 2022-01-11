@@ -220,7 +220,7 @@ input[type=search]{
     font-style:normal;
     font-family: 'Roboto Condensed', sans-serif;
     color: black;
-    font-size: 1.4rem;
+    font-size: 1.5rem;
     line-height: 2.6rem;
     text-align: center;
 }
@@ -418,7 +418,7 @@ input[type=search]{
 }
 
 .search{
-    font-size:1.5rem;
+    font-size:1.6rem;
     position:absolute;
     z-index:30;
     top:23%;
