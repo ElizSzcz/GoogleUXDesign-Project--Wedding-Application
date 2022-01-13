@@ -133,7 +133,7 @@ input[type=search]{
 
 .welcome-with-button{
     position:absolute;
-    left: 68%;
+    left: 70%;
     bottom:20%;
     text-align:right;
     margin-right: 24px;
@@ -231,7 +231,7 @@ input[type=search]{
     /*grid-template-columns: repeat(auto-fit,minmax(50px,1fr));*/
     grid-template-columns: repeat(11,50px);
     grid-template-rows: repeat(18,50px);
-    margin-bottom: 20px;
+    margin-bottom: 40px;
 }
 
 .violin-img-wrapper{
