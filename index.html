@@ -49,13 +49,15 @@
             </nav>
 
             <div class="homescreen-image-wrapper">
-                <img src="images/Kingswood Homescreen Photo.jpg" 
+                <!--<img src="images/Kingswood Homescreen Photo.jpg" 
                 srcset="images/KingswoodHomescreenPhotoXL.jpeg 1728w,
                 images/KingswoodHomescreenPhotoXL-L.jpg 1400w, 
                 images/KingswoodHomescreenPhotoLg.jpeg 1152w, 
                 images/KingswoodHomescreenPhotoMd.jpeg 834w, 
                 images/KingswoodHomescreenPhotoSm.jpeg 375w" 
-                sizes="100vw" alt="trees" class="homescreen-image">
+                sizes="100vw" alt="trees" class="homescreen-image">-->
+                <img src="images/IMG_1013 (3).jpeg" alt="lights" class="homescreen-image">
+                <img src="images/IMG_1009.jpeg" alt="wedding bands" class="homescreen-image-two">
             </div>
             <!--<img src="flower-large.jpg" srcset="flower-small.jpg 480w, flower-large.jpg 1080w" sizes="50vw">-->
     </div>
@@ -81,13 +83,14 @@
             <div class="home-written-content">
 
         
-                <p class="about-para-begin">We Make Beautiful Weddings Simple.</p>
-                <p class="about-para">
+                <p class="about-para-begin">We Make Beautiful Weddings Simple- With 
+                    All the Building Blocks You Need to Create Your Wedding.</p>
+                <p class="about-para"> 
                 Choose from the floral arrangements, seasonal menu, 
                 photographers, videographers, and musicians we collaborate 
                 with simply and easily. Work with our vendors or coordinate 
                 with us to use your own. Our outdoor venue creates a 
-                rustic and inviting atmosphere. We are located in Alberta,
+                rustic and inviting atmosphere. We are located in Ontari,
                 Michigan. <br> <span class="about-para-end">Sincerely,</span>
                 </p>
 
@@ -95,7 +98,7 @@
                     <address class="address-sign-off">
                         <span class="about-sign-off-head">KINGSWOOD</span><br>
                     5590 Wood Pine Road <br>
-                    Alberta, MI 45087 <br>
+                    Ontari, MI 45087 <br>
                     (456) 618 - 2727 <br>
                     Weddings@Kingswood.com <br>
                     </address>
@@ -114,7 +117,7 @@
                     srcset="images/yash-sant-kg4bbebsBA0-unsplashMD.jpeg 500w"
                     sizes="400px"
                     alt="violin image" class="violin-img" ></div>
-                <div class="box-img"></div>
+                <div class="box-img"><!--<img src="images/IMG_1008.jpeg" alt="flower bouquet" class="bouquet-image">--></div>
                 <div class="guitar-img-wrapper"><img src="images/chris-hardy-VY0XY_DNwqc-unsplash.jpg" 
                     srcset="images/chris-hardy-VY0XY_DNwqc-unsplashMD.jpeg 500w"
                     sizes="400px"
@@ -161,20 +164,31 @@
 
 </html>
 
-<!--<script>
+<script>
     var navigation = document.querySelector('.navigation');
     var menuBtn = document.querySelector('.menu-btn')
     menuBtn.addEventListener('click', function() {
-        navigation.toggleClass();
+        navigation.classList.toggle('show');
     });
-</script>-->
+</script>
 
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script>
     $('.menu-btn').on('click', function() {
-        $('.navigation').toggle();
+        /*$('.navigation').toggle();*/
         (($(".menu-btn").html() === "Menu" ? $(".menu-btn").html("Close Menu") : $(".menu-btn").html("Menu")))
     });
+
+    /*function toggleFunction() {
+        var x = document.querySelector('.navigation');
+        x.classList.toggle('show');
+        console.log('hello');
+    }*/
+
+    /*$('.menu-btn').on('click', function() {
+        $('.navigation').classList.toggle('show');
+        (($(".menu-btn").html() === "Menu" ? $(".menu-btn").html("Close Menu") : $(".menu-btn").html("Menu")))
+    });*/
 
 </script>
